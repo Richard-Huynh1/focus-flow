@@ -1,5 +1,11 @@
+import TaskManager from './components/task-management/TaskManager.jsx';
+
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <TaskManager />
+    </>
+  );
 }
 
 export default App;
